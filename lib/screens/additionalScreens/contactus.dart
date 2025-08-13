@@ -12,7 +12,7 @@ void showContactDialog(BuildContext context) {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text("For any inquiries, call us at:"),
-            const SizedBox(height: 10),
+            const SizedBox(height: 20),
             const Text(
               "+1 234 567 890",  // Replace with your actual contact number
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
